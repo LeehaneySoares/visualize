@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 65.2%;
+}
+html, body{
+    width: 100vw;
+    height:100vh;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+.background{
+    background-image: url(../images/bg.jpg);
+    background-position: center;
+    background-size:cover;
+    
+}
+header{
+    width: 100vw;
+    max-width: 1280px;
+    height: auto;
+    margin: 50px auto;
+}
+.container{
+    width: 100%;
+    max-width: 1140px;
+    display: flex;
+    justify-content:center;
+    margin: auto;
+}
+#avatar{
+    border: 10px solid rgb(65, 66, 94);
+    border-radius: 150px;
+}
+.background .content{
+    width: 100%;
+    max-width: 1280px;
+    height:auto;
+    text-align: center;
+    margin: 50px auto;
+}
+.content .container{
+    flex-direction: column;
+    align-items: center;
+}
+.content .container .text{
+    color: rgba(255, 255, 255, 0.65);
+    width: 70%;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 50px;
+}
+.text a{
+    border-bottom: .5px dashed #aaa;
+    text-decoration: none;
+    color: #aaa;
+}
+.text a:hover{
+    transition: all .5s ease-out;
+    border-bottom: .5px dashed rgba(0, 0, 0, 0.0);
+    color: #fff;
+}
+.content .container .social{
+    margin:0 0 2rem 0;
+    padding: 0;
+    display: flex;
+}
+.content .container .social li{
+    list-style:none;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+.content .container .social li:hover img{
+    transition: all 0.7s ease-in-out;
+    cursor: pointer;
+}
+main{
+    width: 100vw;
+    height: auto;
+}
+.galary {
+    width: 100vw;
+    height: auto;
+}
+.galary .container div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+.galary .container figure{
+    margin-bottom: 2.0rem;
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.281);
+    border: 1px solid rgba(255, 255, 255, 0.281);
+    border-radius: 5px;
+    text-align: center;
+}
+.galary .container figure:hover{
+    box-shadow: 0px 0px 10px rgb(202, 40, 40);
+    transition: all .5s ease-in;
+}
+.galary .container figure img{
+    width: 100%;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    border: none;
+    cursor: pointer;
+}
+.galary .container figure p{
+    height: 1.5rem;
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+.bar{
+    margin:2rem 0 2rem 0 ;
+    width: 200px;
+    height: 1px;
+    background-color: #ccc;
+}
+footer{
+    width: 100vw;
+    padding: 2rem 0 2rem 0;
+}
+footer .l-footer .container span{
+    font-size: 1.2rem;
+    color: #fff;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+/*   
+version mobile   
+*/
+
+@media only screen and (min-width:620px) and (max-width:1110px){
+
+    .galary .container div:nth-last-child(1){
+        margin-right: 3rem;
+    }
+
+}
+@media only screen and (max-width:619px){
+    .galary .container{
+        width: 70%;
+        align-items: center;
+        flex-direction: column;
+    }
+    footer .container{
+        width: 70%;
+        text-align:center;
+    }
+}
+@media only screen and (max-width:374px){
+
+    .container .social li{
+        padding: 12px !important;
+    }
+}
+
+
