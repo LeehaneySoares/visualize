@@ -22,7 +22,7 @@ Com esse template podemos modificar o background, imagens dos elementos, entre o
 
 ## Meta
 
-Seu Nome – [@LeehaneySoares](https://www.facebook.com/) – leehaney.soares@gmail.com
+Leehaney Soares Ferreira Nazaré – [@LeehaneySoares](https://www.facebook.com/) – leehaney.soares@gmail.com
 
 [https://github.com/LeehaneySoares](https://github.com/LeehaneySoares/)
 
