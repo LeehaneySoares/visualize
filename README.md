@@ -1,11 +1,11 @@
 # Visualize
 > Descrição curta sobre a lib lightBox.
 
-Lightbox é uma técnica de JavaScript que cria uma janela secundária do tipo modal, sobreposta ao site ou janela principal usada para exibir conteúdos web ou multimídia sem a necessidade de redirecionamento para outra janela principal, abertura de janela popup e de recarregar a janela principal após o uso do lightbox. Para mais informações, acesse <a href="https://pt.wikipedia.org/wiki/Lightbox_(script)" _blank>[wiki]Wiki</a>
+Lightbox é uma técnica de JavaScript que cria uma janela secundária do tipo modal, sobreposta ao site ou janela principal usada para exibir conteúdos web ou multimídia sem a necessidade de redirecionamento para outra janela principal, abertura de janela popup e de recarregar a janela principal após o uso do lightbox. Para mais informações, acesse <a href="https://pt.wikipedia.org/wiki/Lightbox_(script)" _target="_blank">Wiki</a>
 
 ## Objetivo
 
-Com o intuito de praticar as tecnologias como HTML 5, CSS e Javascript repliquei a página Visualize a fim de utilizar a lib <i><em>lightBox<em></i>, onde conseguimos exibir thumbnails em uma miniatura flutuante na página, tanto no modo Desktop, quanto no modo mobile =).
+Com o intuito de praticar as tecnologias como HTML 5, CSS e Javascript repliquei a página Visualize a fim de utilizar a lib <b>lightBox</b>, onde conseguimos exibir thumbnails em uma miniatura flutuante na página, tanto no modo Desktop, quanto no modo mobile =).
 
 ![2021-05-02-15-14-29](https://user-images.githubusercontent.com/35075757/116823934-c6c46500-ab5d-11eb-850f-b2ea6f6af8d6.gif)
     
